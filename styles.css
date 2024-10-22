@@ -1,16 +1,28 @@
 body
 {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-image: radial-gradient(#805b2a6c, rgba(33, 18, 163, 0.637));
 }
+
 
 header
 {
-    background-color: #121212;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    filter: drop-shadow(0 0 0.75rem black);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    padding: 50px 20vw;
+    font-family: Arial;
+   
 }
+
+
+.salmon{
+    background:#e09370;
+}
+
 
 section.about
 {
@@ -18,39 +30,56 @@ section.about
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #4285F4;
-    color: blue;
-    filter: drop-shadow(0 0 0.75rem black);
-    display: flex;
+    color: rgba(117, 78, 60, 0.637);
+    /*filter: drop-shadow(0 0 0.75rem black);
+    */display: flex;
 }
+
 
 section.about p
 {
     font-weight: bold;
 }
 
+
 div.aboutme
 {
     margin: 0 auto;
     width: 50%;
     padding: 15px;
-    background-color: #f0f0f0;
+    background-color: #364bc7;
     border-radius: 20px;
 }
 
+
+.link{
+    color:black;
+
+
+
+
+}
+
+
+.link:hover{
+    color: rgb(255, 255, 255);
+}
 .mypicture
 {
-    border: solid #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    margin-right: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 h2.projects
 {
     padding-top: 15px;
     padding-left: 15px;
     font-size: 32px;
+   
 }
+
 
 section.projects
 {
@@ -58,6 +87,7 @@ section.projects
     padding-top: 0px;
     display: flex;
 }
+
 
 section.projects div
 {
@@ -67,11 +97,13 @@ section.projects div
     margin-right: 15px;
 }
 
+
 footer.findme
 {
     text-align: center;
     padding: 25px;
 }
+
 
 button
 {
@@ -80,5 +112,5 @@ button
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    background-color: #34a853;
+    background-color: #c47b0d;
 }
